@@ -84,6 +84,10 @@ Supported tasks: coverage map · structured extraction · side-by-side compariso
 - Claim it removes hallucinations, guarantees completeness or transfers across domains.
 - Prove that a skill or prompt *behaves* as written — it can only show what the text instructs.
 
+## Optional companion skills
+
+The protocol mentions two companion skills, `auditoria-darwinista` (audits whether a skill or prompt lives or dies) and `playbook-fable` (a method layer). **Neither is required**: if they are not installed, ignore those references and Veritas-RD works on its own. Use any skill-audit tool you prefer in their place.
+
 ## Acceptance tests (v4)
 
 | | Setup | Expected |

@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.1
+
+- `auditoria-darwinista` and `playbook-fable` are now documented as **optional** companion skills (SKILL.md, PORTABLE.md, README); the protocol runs without them.
+
 ## v4.0.0
 
 - The boundary with skill/prompt auditing was corrected: that job (does a skill live, die or get rewritten) belongs to a different skill; Veritas acts as its evidence layer when claims must be checked against sources.

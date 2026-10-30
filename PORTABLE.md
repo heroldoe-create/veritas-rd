@@ -14,6 +14,7 @@ Verificar y contrastar afirmaciones contra un corpus identificable. Entregar tra
 - No la uses para dictaminar si una skill o prompt vive, muere o se reescribe: eso corresponde a `auditoria-darwinista`. Si esa auditoría necesita verificar claims de la skill contra fuentes, aplica esta skill como capa de dictamen.
 - Usa `playbook-fable` como capa de método cuando esté activa; para claims vinculados a un corpus, aplica además esta skill como protocolo de dictamen (veredictos, causas de insuficiencia, localizadores y límites), salvo que el usuario indique otra prioridad.
 - Si el usuario invoca varias skills con reglas incompatibles y no designa cuál manda, señala el conflicto antes de combinar reglas.
+- **Skills hermanas opcionales:** `auditoria-darwinista` y `playbook-fable` son compañeras opcionales, no requisitos. Si no están instaladas o activas, ignora las referencias a ellas en este documento: el protocolo funciona por sí solo. Para auditar si una skill o prompt vive o muere, usa la skill de auditoría que tengas; esta solo aporta la capa de dictamen sobre las fuentes.
 
 ## Contrato de entrada
 
