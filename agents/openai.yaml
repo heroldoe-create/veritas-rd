@@ -1,0 +1,13 @@
+interface:
+  display_name: Auditor de evidencia I+D
+  short_description: Verifica claims y novedad con evidencia trazable
+  default_prompt: Usa $veritas-rd para auditar estos claims con las fuentes adjuntas.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
